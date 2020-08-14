@@ -1,0 +1,141 @@
+
+body{
+    background-image: url(photos/bg.jpg);
+    background-size:cover;
+    scroll-behavior: smooth;
+    
+    
+}
+.heading #ftxt ,#stxt{
+            padding-left: 25px;
+            margin-top:25px;
+            font-family:"Lobster";
+            color:whitesmoke;
+            
+            
+}
+.heading a {
+            text-decoration: none;
+            cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+            display:inline-block;
+        }
+#stxt{
+            margin-top:-27px;
+}
+.nav-bar{
+             margin-left: 170px;
+             margin-top: -111px;
+          
+            
+}
+.nav-bar1{
+    margin-left: 270px;
+    margin-top: -51px;
+    display:block;
+   
+}
+ul{
+    list-style-type: none;
+}
+li a{
+            text-decoration: none;
+            display: inline-block;
+            margin-left:35px ;
+            color: rgba(173, 171, 171, 0.808);
+            font-weight: bolder;
+            font-size: 23px;
+            font-family: "Teko" ;
+            cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+li a:hover  {
+        color: whitesmoke;
+        text-shadow: 2px 2px 7px #ff7300;      
+}       
+li{
+    float: left;
+}
+.video{
+      
+    direction: rtl;
+    padding-right: 25px;
+    margin-top:25px;
+}
+#v1{
+    font-family: "Teko";
+    color: rgba(255, 255, 255, 0.582);
+    margin-left: 50px;
+}
+.main{
+    background-image: url(photos/30075_deviantart-more-like-bbc-sherlock-wallpapers-pattern-by-vinree_900x563_h.webp);
+    margin-top: 100px;
+    margin-left: 25px;
+    display: block;  
+}
+.stack-top{
+    position:absolute;
+    right: 840px;
+    bottom: 212px;
+    z-index: 9999;
+    color:whitesmoke;
+    font-family: "Teko";
+    font-size: 27px;
+    line-height: 0.7;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  
+}
+@keyframes ani{
+    from{
+          text-decoration: none;
+          opacity: 5;
+    }
+    to{
+        text-decoration: line-through;
+        opacity:0.5;
+    }
+}
+
+
+#psycho{
+    font-family: "Lobster";
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    animation-name: ani;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+   }
+#socio{
+    font-family: "Lobster";
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+   }
+.form-bg{
+    color:white;
+    font-family: "Teko";
+    font-size: 27px;
+    position: absolute;
+    display: block;
+    bottom:283px;
+    left:691px;
+    background-image: url(photos/30075_deviantart-more-like-bbc-sherlock-wallpapers-pattern-by-vinree_900x563_h.webp);
+    background-size: cover;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+#submit{
+    position: relative;
+    left: 42%;
+    background-color:rgba(255, 217, 0, 0.87);
+    border:2px solid gold;
+    font-family: "Teko";
+    font-size: 27;
+    font-weight: bold;
+    color:grey;     
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='27' height='32' viewport='0 0 100 100' style='fill:black;font-size:16px;'><text y='50%'>🔬</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+.input{
+    background-color: orange;
+    opacity: 0.5;  
+}
+#check{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 12px;
+}
